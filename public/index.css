@@ -1,0 +1,126 @@
+body {
+    font-family: "Roboto";
+}
+
+.dezenas{
+    border-radius: 50%;
+    background-color: #209869;
+    padding: 10px;
+    align-items: center;
+    text-align: center;
+    border: #209869;
+    
+}
+
+.dezenasQuina{
+    border-radius: 50%;
+    background-color: #260085;
+    padding: 10px;
+    align-items: center;
+    text-align: center;
+    border: #260085;
+    
+}
+
+.linha{
+    height: 30px;
+    padding-bottom: 7%;
+}
+
+.acumulado{
+    color: #0066b3;
+}
+
+.tituloMegasena{
+    color: #209869;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.tituloLotofacil{
+    color: #930089;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.tituloQuina {
+    color: #260085;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.labelDezenasLotofacil{
+    color: #930089;
+    font-size: 30px;
+    padding-right: 50px;
+}
+
+.labelDezenasMegasena{
+    font-size: large;
+    color: #fff;
+}
+
+.labelDezenasQuina {
+    font-size: large;
+    color: #fff;
+}
+
+.coluna{
+    width: 30%;
+    
+}
+
+.espacoDezenas{
+    padding-right: 10px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td, th {
+   padding: auto;
+}
+
+.primeiraColuna{
+    width: 1%;
+}
+
+hr.divisa {
+  border-top: 3px solid #bbb;
+}
+
+.carregando {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -50px 0 0 -50px;
+    font-size: large;
+    font-weight: bold;
+}
+
+.navbar {
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+.link {
+    font-weight: bold;
+    font-size: 24px;
+    text-decoration-line: none;
+    margin-right: 20px;
+}
+
+.link.quina {
+    color: #260085;
+}
+
+.link.megasena {
+    color: #209869
+}
+
+.link.lotofacil {
+    color: #0066b3;
+}
